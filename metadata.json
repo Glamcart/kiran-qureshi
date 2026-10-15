@@ -1,0 +1,8 @@
+{
+  "name": "Veloura Beauty — Luxury Cosmetics & Skincare",
+  "description": "Upscale beauty and cosmetics online store featuring premium makeup, skincare, and fragrance essentials with a refined editorial aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary-berry: #A62970;
+  --color-deep-berry: #851C5A;
+  --color-plum: #38203F;
+  --color-deep-plum: #2E1738;
+  --color-soft-blush: #F8EAF1;
+  --color-pale-rose: #FCF4F7;
+  --color-warm-cream: #FFF9F4;
+  --color-champagne-gold: #D7B77A;
+  --color-main-text: #242026;
+  --color-secondary-text: #777078;
+  --color-white: #FFFFFF;
+  --color-border: #EDE2E9;
+  --color-success: #287A52;
+  --color-error: #B42335;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: var(--color-main-text);
+  background-color: var(--color-warm-cream);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom scrollbar for elegant e-commerce look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FCF4F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8B4C8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A62970;
+}
